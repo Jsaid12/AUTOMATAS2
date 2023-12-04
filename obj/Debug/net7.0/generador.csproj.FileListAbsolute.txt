@@ -1,0 +1,15 @@
+C:\Users\980020886\Documents\algoritmos\proyectos\generador\bin\Debug\net7.0\generador.exe
+C:\Users\980020886\Documents\algoritmos\proyectos\generador\bin\Debug\net7.0\generador.deps.json
+C:\Users\980020886\Documents\algoritmos\proyectos\generador\bin\Debug\net7.0\generador.runtimeconfig.json
+C:\Users\980020886\Documents\algoritmos\proyectos\generador\bin\Debug\net7.0\generador.dll
+C:\Users\980020886\Documents\algoritmos\proyectos\generador\bin\Debug\net7.0\generador.pdb
+C:\Users\980020886\Documents\algoritmos\proyectos\generador\obj\Debug\net7.0\generador.csproj.AssemblyReference.cache
+C:\Users\980020886\Documents\algoritmos\proyectos\generador\obj\Debug\net7.0\generador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\980020886\Documents\algoritmos\proyectos\generador\obj\Debug\net7.0\generador.AssemblyInfoInputs.cache
+C:\Users\980020886\Documents\algoritmos\proyectos\generador\obj\Debug\net7.0\generador.AssemblyInfo.cs
+C:\Users\980020886\Documents\algoritmos\proyectos\generador\obj\Debug\net7.0\generador.csproj.CoreCompileInputs.cache
+C:\Users\980020886\Documents\algoritmos\proyectos\generador\obj\Debug\net7.0\generador.dll
+C:\Users\980020886\Documents\algoritmos\proyectos\generador\obj\Debug\net7.0\refint\generador.dll
+C:\Users\980020886\Documents\algoritmos\proyectos\generador\obj\Debug\net7.0\generador.pdb
+C:\Users\980020886\Documents\algoritmos\proyectos\generador\obj\Debug\net7.0\generador.genruntimeconfig.cache
+C:\Users\980020886\Documents\algoritmos\proyectos\generador\obj\Debug\net7.0\ref\generador.dll
