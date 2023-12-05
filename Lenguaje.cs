@@ -224,6 +224,38 @@ namespace Generador
                 Or();
 
             }
+            else
+            {
+                int contElse = 0;
+                while (contElse < 1)
+                {
+                    if (esPalabraReservada(simbolo))
+                    {
+                        generado.WriteLine("            else");
+                        generado.WriteLine("            {");
+                        generado.WriteLine("                match(Tipos." + simbolo + ");");
+                        generado.WriteLine("            }");
+                        match(Tipos.SNT);
+                    }
+                    else if (getClasificacion() == Tipos.ST)
+                    {
+                        generado.WriteLine("            else");
+                        generado.WriteLine("            {");
+                        generado.WriteLine("                match(\"" + simbolo + "\");");
+                        generado.WriteLine("            }");
+                        match(Tipos.ST);
+                    }
+                    else if (getClasificacion() == Tipos.SNT)
+                    {
+                        generado.WriteLine("            else");
+                        generado.WriteLine("            {");
+                        generado.WriteLine("                " + simbolo + "();");
+                        generado.WriteLine("            }");
+                        match(Tipos.SNT);
+                    }
+                    contElse++;
+                }
+            }
         }
         private bool esPalabraReservada(string palabra)
         {
