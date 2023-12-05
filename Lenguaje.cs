@@ -167,6 +167,7 @@ namespace Generador
 
         private void Or()
         {
+            //int contElse = 0;
             string simbolo = getContenido();
             if (esPalabraReservada(simbolo))
             {
@@ -184,7 +185,7 @@ namespace Generador
                 generado.WriteLine("            }");
                 match(Tipos.ST);
             }
-            /*else if (getClasificacion() == Tipos.SNT)
+            else if (getClasificacion() == Tipos.SNT)
             {
                 generado.WriteLine("            else if (getContenido() == \"" + simbolo + "\")");
                 generado.WriteLine("            {");
@@ -192,14 +193,12 @@ namespace Generador
                 generado.WriteLine("            }");
                 match(Tipos.SNT);
             }
-            */
             if (getClasificacion() != Tipos.PDer)
             {
                 Or();
             }
-            else
+            /*else
             {
-                int contElse = 0;
                 while (contElse < 1)
                 {
                     if (esPalabraReservada(simbolo))
@@ -228,7 +227,7 @@ namespace Generador
                     }
                     contElse++;
                 }
-            }
+            }*/
         }
         private bool esPalabraReservada(string palabra)
         {
