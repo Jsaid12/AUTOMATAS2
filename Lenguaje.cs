@@ -184,7 +184,7 @@ namespace Generador
                 generado.WriteLine("            }");
                 match(Tipos.ST);
             }
-            else if (getClasificacion() == Tipos.SNT)
+            /*else if (getClasificacion() == Tipos.SNT)
             {
                 generado.WriteLine("            else if (getContenido() == \"" + simbolo + "\")");
                 generado.WriteLine("            {");
@@ -222,7 +222,6 @@ namespace Generador
             if (getClasificacion() != Tipos.PDer)
             {
                 Or();
-
             }
             else
             {
